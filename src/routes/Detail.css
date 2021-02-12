@@ -1,0 +1,55 @@
+.detail__container {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5%;
+  /* border: solid; */
+}
+
+.detail__container .detail__poster {
+  margin: 0;
+  width: 40%;
+  float: left;
+  /* border: solid; */
+}
+
+.detail__container .detail__poster img {
+  width: 100%;
+}
+
+.detail__container .detail__data {
+  margin-left: 2%;
+  width: 58%;
+  float: left;
+  /* border: solid; */
+}
+
+.detail__container .detail__title{
+  margin-top: 10px;
+  font-size: x-large;
+  font-weight: 900;
+}
+.detail__container .detail__year {
+  margin-top: 10px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.detail__container .detail__genres {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.detail__container .detail__genres .genres__genre {
+  margin-right: 8px;
+  float: left;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.detail__container .detail__summary {
+  margin-top: 30px;
+  width: 100%;
+  font-size: small;
+  font-weight: 300;
+}
