@@ -15,7 +15,7 @@ function Movie({id, year, title, summary, poster, genres}){
       poster,
       genres
       }
-    }}>
+    }} style={{ textDecoration: 'none' }}>
       <div className="movie">
         <img src={poster} alt={title} title={title} />
         <div className="movie__data">
